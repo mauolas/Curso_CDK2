@@ -13,6 +13,7 @@ pipeline {
         stage('Tools Information') {
           steps {
             sh 'node --version'
+            sh 'env'
           }
         }
 
